@@ -1,0 +1,22 @@
+Submissions are scored on the log loss:
+
+LogLoss=−(1/n)∑i=1 to n[ylog(Yi)+(1−y)log(1−Yi)],
+
+where
+
+n is the number of images in the test set
+Yi is the predicted probability of the image being a dog
+y is 1 if the image is a dog, 0 if cat
+log() is the natural (base e) logarithm
+
+A smaller log loss is better.
+
+Submission File
+
+For each image in the test set, you must submit a probability that image is a dog. The file should have a header and be in the following format:
+
+id,label
+1,0.5
+2,0.5
+3,0.5
+...
