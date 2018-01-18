@@ -1,0 +1,10 @@
+Submissions are evaluated on the mean column-wise log loss. In other words, the score is the average of the log loss of each predicted column.
+
+Submission File
+For each id in the test set, you must predict a probability for each of the six possible types of comment toxicity (toxic, severe_toxic, obscene, threat, insult, identity_hate). 
+The columns must be in the same order as shown below. The file should contain a header and have the following format:
+
+id,toxic,severe_toxic,obscene,threat,insult,identity_hate
+6044863,0.5,0.5,0.5,0.5,0.5,0.5
+6102620,0.5,0.5,0.5,0.5,0.5,0.5
+etc.
